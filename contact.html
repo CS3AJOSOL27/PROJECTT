@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Systems Biology Institute</title>
+    <style>
+        /* Reset and basic styles */
+        body, h1, h2, h3, p, ul, form {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        /* Navigation styles */
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        nav ul li a.active {
+            background-color: #4CAF50;
+        }
+
+        /* Main content styles */
+        main {
+            padding: 2rem;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        section {
+            margin-bottom: 2rem;
+            width: 48%;
+        }
+
+        /* Form styles */
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        form label {
+            margin-bottom: 0.5rem;
+        }
+
+        form input,
+        form textarea {
+            padding: 0.5rem;
+            margin-bottom: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+        }
+
+        form button {
+            padding: 0.5rem 1rem;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+        }
+
+        form button:hover {
+            background-color: #3e8e41;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Contact Us</h1>
+            <p>Get in touch with us for any inquiries, collaborations, or general questions about our research and activities.</p>
+            <form>
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>Visit Us</h2>
+            <p>Systems Biology Institute<br>
+            123 Main Street<br>
+            Cityville, State 12345<br>
+            Country</p>
+
+            <h2>Get in Touch</h2>
+            <p>Phone: +1 (123) 456-7890<br>
+            Email: info@systemsbiology.org</p>
+
+            <h2>Follow Us</h2>
+            <p>
+                <a href="#">Twitter</a> |
+                <a href="#">Facebook</a> |
+                <a href="#">LinkedIn</a>
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Systems Biology Institute</p>
+    </footer>
+</body>
+</html>

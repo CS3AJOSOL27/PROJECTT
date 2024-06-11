@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systems Biology Institute</title>
+    <style>
+        /* Reset and basic styles */
+        body, h1, h2, h3, p, ul {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            color: #ffffff; /* Set text color to white */
+        }
+
+        body {
+            background-color: #000000; /* Set background color to black */
+        }
+
+        /* Navigation styles */
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            background-color: #333333; /* Adjust navigation background color */
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+        }
+
+        nav ul li a:hover {
+            background-color: #555555; /* Adjust navigation hover color */
+        }
+
+        nav ul li a.active {
+            background-color: #4CAF50;
+        }
+
+        /* Main content styles */
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        /* Hero section styles */
+        .hero {
+            background-image: url('hero-image.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            color: white;
+        }
+
+        .hero h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            max-width: 600px;
+        }
+
+        /* Featured research section styles */
+        .featured-research {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .featured-research-card {
+            width: 30%;
+            background-color: #222222; /* Adjust featured research card background color */
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(255, 255, 255, 0.1); /* Adjust box shadow color */
+        }
+
+        .featured-research-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .featured-research-card h3 {
+            margin: 1rem 0;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333333; /* Adjust footer background color */
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="abt.html">About</a></li>
+                <li><a href="research.html">Research</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div>
+                <h1>Unraveling the Complexities of Life</h1>
+                <p>Welcome to the Systems Biology Institute, where we explore the intricate connections between biological components and their collective behavior. Join us in our pursuit of groundbreaking discoveries that shed light on the fundamental principles governing life.</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Our Mission</h2>
+            <p>At the Systems Biology Institute, our mission is to advance our understanding of biological systems through an integrative and interdisciplinary approach. We combine experimental and computational methods to unravel the complex networks and interactions that shape cellular processes, organismal behavior, and ecosystem dynamics.</p>
+        </section>
+
+        <section class="featured-research">
+            <h2>Featured Research</h2>
+            <div class="featured-research-card">
+                <img src="https://stock.adobe.com/ph/images/digital-representation-of-dna-helix-integrating-genetics-technology-and-data-visualization-in-a-complex-networked-environment/820295804" alt="Gene Regulatory Networks">
+                <h3>Gene Regulatory Networks</h3>
+                <p>Investigating the intricate interactions between genes and their regulatory elements, shaping cellular processes like development and disease progression.</p>
+                <a href="research.html#gene-regulatory-networks">Learn More</a>
+            </div>
+            <div class="featured-research-card">
+                <img src="metabolic-pathways.jpg" alt="Metabolic Pathways">
+                <h3>Metabolic Pathways</h3>
+                <p>Studying the network of metabolic reactions and their role in maintaining cellular homeostasis, with applications in metabolic disorders and biotechnology.</p>
+                <a href="research.html#metabolic-pathways">Learn More</a>
+            </div>
+            <div class="featured-research-card">
+                <img src="signaling-networks.jpg" alt="Signaling Networks">
+                <h3>Signaling Networks</h3>
+                <p>Exploring the complex signaling cascades that coordinate cellular responses to environmental cues, with potential applications in disease diagnosis and targeted therapeutics.</p>
+                <a href="research.html#signaling-networks">Learn More</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Systems Biology Institute</p>
+    </footer>
+</body>
+</html>

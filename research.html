@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Systems Biology Research</title>
+    <style>
+        /* Reset and basic styles */
+        body, h1, h2, h3, p, ul {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navigation styles */
+        nav ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 1rem;
+        }
+
+        nav ul li a:hover {
+            background-color: #555;
+        }
+
+        nav ul li a.active {
+            background-color: #4CAF50;
+        }
+
+        /* Main content styles */
+        main {
+            padding: 2rem;
+        }
+
+        section {
+            margin-bottom: 2rem;
+        }
+
+        /* Research areas styles */
+        .research-areas {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .research-card {
+            width: 30%;
+            background-color: #f5f5f5;
+            padding: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease-in-out;
+            opacity: 0;
+            transform: translateY(20px);
+        }
+
+        .research-card.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .research-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+
+        .research-card h3 {
+            margin: 1rem 0;
+        }
+
+        .research-card p {
+            margin-bottom: 1rem;
+        }
+
+        .research-card a.learn-more {
+            display: inline-block;
+            background-color: #4CAF50;
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+
+        .research-card a.learn-more:hover {
+            background-color: #3e8e41;
+        }
+
+        /* Footer styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="abt.html">About</a></li>
+                <li><a href="research.html" class="active">Research</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h1>Systems Biology Research</h1>
+            <p>At our research institute, we are dedicated to unraveling the complexities of biological systems through a holistic and interdisciplinary approach. Our cutting-edge research aims to uncover the intricate connections between various biological components and their collective behavior, shedding light on the fundamental principles that govern life.</p>
+            <p>Our team of experts, comprising biologists, computational scientists, engineers, and mathematicians, collaborates to develop innovative methodologies and tools for integrating diverse data sources and modeling complex biological networks. By combining experimental and computational approaches, we strive to gain a comprehensive understanding of biological processes at multiple scales, from molecular interactions to cellular dynamics and organismal behavior.</p>
+        </section>
+
+        <section class="research-areas">
+            <h2>Research Areas</h2>
+            <div class="research-card">
+                <img src="gene-regulatory-networks.jpg" alt="Gene Regulatory Networks">
+                <h3>Gene Regulatory Networks</h3>
+                <p>Our researchers are investigating the complex interactions between genes and their regulatory elements, such as transcription factors and epigenetic modifications. By understanding these intricate networks, we aim to unravel the mechanisms that shape cellular processes, such as development, differentiation, and disease progression.</p>
+                <p>Through cutting-edge techniques like high-throughput sequencing, chromatin immunoprecipitation, and single-cell transcriptomics, we are mapping gene regulatory networks at unprecedented resolution. Additionally, we employ computational modeling and machine learning approaches to integrate multi-omics data and predict regulatory interactions, enabling us to identify key regulatory nodes and potential therapeutic targets.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+            <div class="research-card">
+                <img src="metabolic-pathways.jpg" alt="Metabolic Pathways">
+                <h3>Metabolic Pathways</h3>
+                <p>We are studying the intricate network of metabolic reactions and their role in maintaining cellular homeostasis. Our research focuses on identifying key regulatory nodes, metabolic bottlenecks, and the crosstalk between different metabolic pathways. This knowledge is essential for understanding metabolic disorders and developing targeted therapies.</p>
+                <p>Leveraging advanced analytical techniques like mass spectrometry and metabolomics, we are mapping metabolic pathways and their fluxes across various cellular contexts and environmental conditions. Computational modeling and flux balance analysis enable us to predict metabolic behavior and identify potential intervention points for therapeutic or biotechnological applications.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+            <div class="research-card">
+                <img src="signaling-networks.jpg" alt="Signaling Networks">
+                <h3>Signaling Networks</h3>
+                <p>Our team is exploring the complex signaling cascades that coordinate cellular responses to environmental cues. We aim to elucidate the intricate networks of signal transduction pathways, their interactions, and their impact on cellular behavior, with potential applications in disease diagnosis and targeted therapeutics.</p>
+                <p>Using advanced imaging techniques, proteomics, and computational modeling, we are mapping signaling networks at high resolution, identifying key nodes, and elucidating their dynamic behavior. Our research focuses on understanding how dysregulation of signaling pathways contributes to various pathological conditions, such as cancer, neurological disorders, and autoimmune diseases, paving the way for targeted therapeutic interventions.</p>
+                <a href="#" class="learn-more">Learn More</a>
+            </div>
+        </section>
+
+        <section>
+            <h2>Interdisciplinary Collaborations</h2>
+            <p>Our research institute fosters interdisciplinary collaborations to tackle complex biological problems from diverse perspectives. We actively collaborate with experts in fields such as computer science, mathematics, physics, and engineering, leveraging their expertise in areas like data analysis, modeling, and simulation.</p>
+            <p>Through these collaborations, we develop novel computational tools and methodologies to integrate and analyze large-scale biological data, enabling us to uncover intricate relationships and patterns that would be challenging to discern through experimental approaches alone.</p>
+        </section>
+
+        <section>
+            <h2>Core Facilities</h2>
+            <p>Our institute is equipped with state-of-the-art core facilities that support our research endeavors. These facilities include:</p>
+            <ul>
+                <li>High-throughput sequencing facility</li>
+                <li>Proteomics and metabolomics facility</li>
+                <li>Bioimaging and microscopy facility</li>
+                <li>Bioinformatics and computational biology facility</li>
+            </ul>
+            <p>These core facilities provide our researchers with access to cutting-edge technologies and resources, enabling them to generate high-quality data and perform advanced analyses to address complex biological questions.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; Systems Biology Website</p>
